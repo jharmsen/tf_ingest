@@ -1,6 +1,7 @@
-load("@protobuf//:protobuf.bzl", "cc_proto_library")
-
-cc_proto_library(
-    name = "tf_ingest_proto",
-    srcs = ["tf_ingest.proto"],
+package(
+    default_visibility = ["//visibility:public"],
 )
+
+licenses(["notice"])  # Apache 2.0
+
+exports_files(["LICENSE"])
