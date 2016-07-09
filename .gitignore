@@ -7,6 +7,7 @@ node_modules
 /bazel-tensorflow
 /bazel-testlogs
 /bazel-tf
+/bazel-tf_ingest
 /bazel-workspace
 /third_party/py/numpy/numpy_include
 /util/python/python_include
